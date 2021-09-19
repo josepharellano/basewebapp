@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es6",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "allowJs": false,
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "types": [
+          "pixi.js",
+          "node",
+      ]
+    },
+    "include": ["src", "index.d.ts"],
+}
